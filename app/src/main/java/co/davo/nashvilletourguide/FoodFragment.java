@@ -23,7 +23,7 @@ public class FoodFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         TextView textView = new TextView(getActivity());
-        textView.setText(R.string.hello_blank_fragment);
+        textView.setText("Food Fragment");
         return textView;
     }
 
