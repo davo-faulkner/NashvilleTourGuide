@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
-        app:tabGravity="center"
+        app:tabGravity="fill"
         app:tabIndicatorColor="@android:color/white"
         app:tabMode="fixed"
         app:tabSelectedTextColor="@android:color/white"
@@ -25,5 +25,5 @@
         android:layout_height="0px"
         android:layout_weight="1"
         android:background="@android:color/white" />
-    
+
 </LinearLayout>
