@@ -6,7 +6,9 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -22,9 +24,18 @@ public class MusicFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        TextView textView = new TextView(getActivity());
-        textView.setText("Music Fragment");
-        return textView;
+        View rootView = inflater.inflate(R.layout.location_list, container, false);
+
+        final ArrayList<Location> locations = new ArrayList<>();
+        locations.add(new Location("Tootsie's", "Music and Dancing", "101 Broad St\nNashville, TN 37201", R.mipmap.ic_launcher));
+
+        LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
+
+        ListView listView = (ListView) rootView.findViewById(R.id.list);
+
+        listView.setAdapter(adapter);
+
+        return rootView;
     }
 
 }

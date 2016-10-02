@@ -10,9 +10,9 @@ public class Location {
     private String mAddress;
     private int mImageResourceId;
 
-    public Location(String mName, String mDestription, String mAddress, int mImageResourceId) {
+    public Location(String mName, String mDescription, String mAddress, int mImageResourceId) {
         this.mName = mName;
-        this.mDescription = mDestription;
+        this.mDescription = mDescription;
         this.mAddress = mAddress;
         this.mImageResourceId = mImageResourceId;
     }
