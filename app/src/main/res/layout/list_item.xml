@@ -23,7 +23,7 @@
         android:paddingLeft="16dp">
 
         <TextView
-            android:id="@+id/miwok_text_view"
+            android:id="@+id/name_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@android:color/white"
@@ -32,7 +32,15 @@
             tools:text="Tootsie's" />
 
         <TextView
-            android:id="@+id/default_text_view"
+            android:id="@+id/description_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:text="Live Music and Dancing" />
+
+        <TextView
+            android:id="@+id/address_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@android:color/white"

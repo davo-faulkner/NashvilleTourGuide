@@ -6,13 +6,13 @@ package co.davo.nashvilletourguide;
 
 public class Location {
     private String mName;
-    private String mDestription;
+    private String mDescription;
     private String mAddress;
     private int mImageResourceId;
 
     public Location(String mName, String mDestription, String mAddress, int mImageResourceId) {
         this.mName = mName;
-        this.mDestription = mDestription;
+        this.mDescription = mDestription;
         this.mAddress = mAddress;
         this.mImageResourceId = mImageResourceId;
     }
@@ -21,8 +21,8 @@ public class Location {
         return mName;
     }
 
-    public String getmDestription() {
-        return mDestription;
+    public String getmDescription() {
+        return mDescription;
     }
 
     public String getmAddress() {
