@@ -28,6 +28,7 @@ public class MusicFragment extends Fragment {
 
         final ArrayList<Location> locations = new ArrayList<>();
         locations.add(new Location("Tootsie's", "Music and Dancing", "101 Broad St\nNashville, TN 37201", R.mipmap.ic_launcher));
+        locations.add(new Location("McDonald's", "Crap Food", "1444 West End Ave\nNashville, TN 37201", R.mipmap.ic_launcher));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
 
