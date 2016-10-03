@@ -27,8 +27,10 @@ public class MusicFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
 
         final ArrayList<Location> locations = new ArrayList<>();
-        locations.add(new Location("Tootsie's", "Music and Dancing", "101 Broad St\nNashville, TN 37201", R.mipmap.ic_launcher));
-        locations.add(new Location("McDonald's", "Crap Food", "1444 West End Ave\nNashville, TN 37201", R.mipmap.ic_launcher));
+        locations.add(new Location("Grand Ole Opry", "Music and Dancing", "101 Broad St\nNashville, TN 37201", R.drawable.opry));
+        locations.add(new Location("Ryman Auditorium", "Crap Food", "1444 West End Ave\nNashville, TN 37201", R.drawable.ryman));
+        locations.add(new Location("Wildhorse Saloon", "Crap Food", "1444 West End Ave\nNashville, TN 37201", R.drawable.wildhorse));
+        locations.add(new Location("Tootsie's Orchid Lounge", "Crap Food", "1444 West End Ave\nNashville, TN 37201", R.drawable.tootsies));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
 
