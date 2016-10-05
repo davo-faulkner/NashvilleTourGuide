@@ -32,4 +32,11 @@
     <string name="grilled_cheeserie_address">Follow @GrlldCheeserie on Twitter for current location</string>
     <string name="loveless_description">Real Southern Food</string>
     <string name="loveless_address">8400 Highway 100\\nNashville, TN 37221</string>
+    <string name="parthenon_description">Full-Scale Replica</string>
+    <string name="parthenon_address">2500 West End Ave\\nNashville, TN 37203</string>
+    <string name="parthenon_gallery_description">Tennessee Centennial Exhibition</string>
+    <string name="frist_description">Visual Arts</string>
+    <string name="frist_address">919 Broadway\\nNashville, TN 37203</string>
+    <string name="cheekwood_description">Museam of Art</string>
+    <string name="cheekwood_address">1200 Forest Park Dr\\nNashville, TN 37205</string>
 </resources>
