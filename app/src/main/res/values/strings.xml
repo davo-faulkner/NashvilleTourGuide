@@ -16,4 +16,12 @@
     <string name="belcourt_name">Belcourt Theater</string>
     <string name="jack_daniels_name">Jack Daniels Distillery</string>
     <string name="hall_of_fame_name">Country Music Hall of Fame</string>
+    <string name="opry_description">The Brightest Stars</string>
+    <string name="opry_address">2804 Opryland Dr Nashville, TN 37214</string>
+    <string name="ryman_description">The Birthplace of Country</string>
+    <string name="ryman_address">116 5th Ave N\\nNashville, TN, 37219</string>
+    <string name="wildhorse_description">Music and Dancing</string>
+    <string name="wildhorse_address">120 2nd Ave N\\nNashville, TN 37201</string>
+    <string name="tootsies_description">World Famous Orchid Lounge</string>
+    <string name="tootsies_address">422 Broadway\\nNashville, TN 37203</string>
 </resources>

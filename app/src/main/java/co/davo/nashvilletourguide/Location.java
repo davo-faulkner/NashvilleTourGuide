@@ -6,14 +6,14 @@ package co.davo.nashvilletourguide;
 
 public class Location {
     private int mNameResourceId;
-    private String mDescription;
-    private String mAddress;
+    private int mDescriptionResourceId;
+    private int mAddressResourceId;
     private int mImageResourceId;
 
-    public Location(int mNameResourceId, String mDescription, String mAddress, int mImageResourceId) {
+    public Location(int mNameResourceId, int mDescriptionResourceId, int mAddressResourceId, int mImageResourceId) {
         this.mNameResourceId = mNameResourceId;
-        this.mDescription = mDescription;
-        this.mAddress = mAddress;
+        this.mDescriptionResourceId = mDescriptionResourceId;
+        this.mAddressResourceId = mAddressResourceId;
         this.mImageResourceId = mImageResourceId;
     }
 
@@ -21,12 +21,12 @@ public class Location {
         return mNameResourceId;
     }
 
-    public String getmDescription() {
-        return mDescription;
+    public int getmDescriptionResourceId() {
+        return mDescriptionResourceId;
     }
 
-    public String getmAddress() {
-        return mAddress;
+    public int getmAddressResourceId() {
+        return mAddressResourceId;
     }
 
     public int getmImageResourceId() {
