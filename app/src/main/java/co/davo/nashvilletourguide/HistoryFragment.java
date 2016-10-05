@@ -27,10 +27,10 @@ public class HistoryFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
 
         final ArrayList<Location> locations = new ArrayList<>();
-        locations.add(new Location(R.string.hermitage_name, "Hot Chicken", "101 Broad St\nNashville, TN 37201", R.drawable.hermitage));
-        locations.add(new Location(R.string.belcourt_name, "Hot Chicken", "101 Broad St\nNashville, TN 37201", R.drawable.belcourt));
-        locations.add(new Location(R.string.jack_daniels_name, "Hot Chicken", "101 Broad St\nNashville, TN 37201", R.drawable.jack_daniel));
-        locations.add(new Location(R.string.hall_of_fame_name, "Hot Chicken", "101 Broad St\nNashville, TN 37201", R.drawable.hall_of_fame));
+        locations.add(new Location(R.string.hermitage_name, R.string.hermitage_description, R.string.hermitage_address, R.drawable.hermitage));
+        locations.add(new Location(R.string.belcourt_name, R.string.belcourt_description, R.string.belcourt_address, R.drawable.belcourt));
+        locations.add(new Location(R.string.jack_daniels_name, R.string.jack_daniels_description, R.string.jack_daniels_address, R.drawable.jack_daniel));
+        locations.add(new Location(R.string.hall_of_fame_name, R.string.hall_of_fame_description, R.string.hall_of_fame_address, R.drawable.hall_of_fame));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
 
