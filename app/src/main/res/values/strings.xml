@@ -24,4 +24,12 @@
     <string name="wildhorse_address">120 2nd Ave N\\nNashville, TN 37201</string>
     <string name="tootsies_description">World Famous Orchid Lounge</string>
     <string name="tootsies_address">422 Broadway\\nNashville, TN 37203</string>
+    <string name="hattie_bs_description">Hot Chicken</string>
+    <string name="hattie_bs_address">112 19th Ave S\\nNashville, TN 37203</string>
+    <string name="demos_description">Steak and Spaghetti</string>
+    <string name="demos_address">300 Commerce St\\nNashville, TN 37203</string>
+    <string name="grilled_cheeserie_description">World Famous Food Truck</string>
+    <string name="grilled_cheeserie_address">Follow @GrlldCheeserie on Twitter for current location</string>
+    <string name="loveless_description">Real Southern Food</string>
+    <string name="loveless_address">8400 Highway 100\\nNashville, TN 37221</string>
 </resources>
