@@ -1,6 +1,19 @@
 <resources>
     <string name="app_name">Nashville Tour Guide</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="opry_name">Grand Ole Opry</string>
+    <string name="ryman_name">Ryman Auditorium</string>
+    <string name="wildhorse_name">Wildhorse Saloon</string>
+    <string name="tootsies_name">Tootsie\'s Orchid Lounge</string>
+    <string name="hattie_bs_name">Hattie B\'s</string>
+    <string name="demos_name">Demos\'</string>
+    <string name="grilled_cheeserie_name">The Grilled Cheeserie</string>
+    <string name="loveless_name">Loveless Cafe</string>
+    <string name="parthenon_name">The Parthenon</string>
+    <string name="parthenon_gallery_name">The Parthenon Gallery</string>
+    <string name="frist_name">The Frist Center</string>
+    <string name="cheekwood_name">Cheekwood Botanical Garden</string>
+    <string name="hermitage_name">The Hermitage</string>
+    <string name="belcourt_name">Belcourt Theater</string>
+    <string name="jack_daniels_name">Jack Daniels Distillery</string>
+    <string name="hall_of_fame_name">Country Music Hall of Fame</string>
 </resources>

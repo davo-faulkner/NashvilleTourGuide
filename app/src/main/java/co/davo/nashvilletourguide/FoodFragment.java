@@ -27,10 +27,10 @@ public class FoodFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
 
         final ArrayList<Location> locations = new ArrayList<>();
-        locations.add(new Location("Hattie B's", "Hot Chicken", "101 Broad St\nNashville, TN 37201", R.drawable.hattiebs));
-        locations.add(new Location("Demos'", "Steak and Spaghetti", "101 Broad St\nNashville, TN 37201", R.drawable.demos));
-        locations.add(new Location("Grilled Cheeserie", "Hot Chicken", "101 Broad St\nNashville, TN 37201", R.drawable.grilledcheeserie));
-        locations.add(new Location("Loveless Cafe", "Hot Biscuits", "101 Broad St\nNashville, TN 37201", R.drawable.loveless));
+        locations.add(new Location(R.string.hattie_bs_name, "Hot Chicken", "101 Broad St\nNashville, TN 37201", R.drawable.hattiebs));
+        locations.add(new Location(R.string.demos_name, "Steak and Spaghetti", "101 Broad St\nNashville, TN 37201", R.drawable.demos));
+        locations.add(new Location(R.string.grilled_cheeserie_name, "Hot Chicken", "101 Broad St\nNashville, TN 37201", R.drawable.grilledcheeserie));
+        locations.add(new Location(R.string.loveless_name, "Hot Biscuits", "101 Broad St\nNashville, TN 37201", R.drawable.loveless));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
 

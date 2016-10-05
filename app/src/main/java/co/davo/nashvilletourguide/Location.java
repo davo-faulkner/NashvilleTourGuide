@@ -5,20 +5,20 @@ package co.davo.nashvilletourguide;
  */
 
 public class Location {
-    private String mName;
+    private int mNameResourceId;
     private String mDescription;
     private String mAddress;
     private int mImageResourceId;
 
-    public Location(String mName, String mDescription, String mAddress, int mImageResourceId) {
-        this.mName = mName;
+    public Location(int mNameResourceId, String mDescription, String mAddress, int mImageResourceId) {
+        this.mNameResourceId = mNameResourceId;
         this.mDescription = mDescription;
         this.mAddress = mAddress;
         this.mImageResourceId = mImageResourceId;
     }
 
-    public String getmName() {
-        return mName;
+    public int getmNameResourceId() {
+        return mNameResourceId;
     }
 
     public String getmDescription() {

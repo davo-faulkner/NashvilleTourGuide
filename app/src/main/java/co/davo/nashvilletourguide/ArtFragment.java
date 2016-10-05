@@ -28,10 +28,10 @@ public class ArtFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
 
         final ArrayList<Location> locations = new ArrayList<>();
-        locations.add(new Location("Grand Ole Opry", "Music and Dancing", "101 Broad St\nNashville, TN 37201", R.drawable.parthenon));
-        locations.add(new Location("Grand Ole Opry", "Music and Dancing", "101 Broad St\nNashville, TN 37201", R.drawable.parthenon_int));
-        locations.add(new Location("Grand Ole Opry", "Music and Dancing", "101 Broad St\nNashville, TN 37201", R.drawable.frist));
-        locations.add(new Location("Grand Ole Opry", "Music and Dancing", "101 Broad St\nNashville, TN 37201", R.drawable.cheekwood));
+        locations.add(new Location(R.string.parthenon_name, "Music and Dancing", "101 Broad St\nNashville, TN 37201", R.drawable.parthenon));
+        locations.add(new Location(R.string.parthenon_gallery_name, "Music and Dancing", "101 Broad St\nNashville, TN 37201", R.drawable.parthenon_int));
+        locations.add(new Location(R.string.frist_name, "Music and Dancing", "101 Broad St\nNashville, TN 37201", R.drawable.frist));
+        locations.add(new Location(R.string.cheekwood_name, "Music and Dancing", "101 Broad St\nNashville, TN 37201", R.drawable.cheekwood));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
 
