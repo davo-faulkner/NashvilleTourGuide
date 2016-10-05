@@ -26,7 +26,7 @@
             android:id="@+id/name_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@android:color/white"
+            android:textColor="#212121"
             android:textAppearance="?android:textAppearanceMedium"
             android:textStyle="bold"
             tools:text="Tootsie's" />
@@ -35,7 +35,7 @@
             android:id="@+id/description_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@android:color/white"
+            android:textColor="#757575"
             android:textAppearance="?android:textAppearanceMedium"
             tools:text="Live Music and Dancing" />
 
@@ -43,7 +43,7 @@
             android:id="@+id/address_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@android:color/white"
+            android:textColor="#757575"
             android:textAppearance="?android:textAppearanceMedium"
             tools:text="Live Music and Dancing" />
 
