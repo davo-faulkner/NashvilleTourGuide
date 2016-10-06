@@ -15,11 +15,9 @@ import java.util.ArrayList;
  */
 public class HistoryFragment extends Fragment {
 
-
     public HistoryFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -40,5 +38,4 @@ public class HistoryFragment extends Fragment {
 
         return rootView;
     }
-
 }

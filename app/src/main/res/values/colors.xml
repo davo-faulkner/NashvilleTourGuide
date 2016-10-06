@@ -4,4 +4,6 @@
     <color name="colorPrimaryDark">#0288D1</color>
     <color name="colorAccent">#FFFFFF</color>
     <color name="colorListItemBackground">#FFFFFF</color>
+    <color name="colorTextPrimary">#333333</color>
+    <color name="colorTextSubtitle">#777777</color>
 </resources>

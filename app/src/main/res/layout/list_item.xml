@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:minHeight="@dimen/list_item_height"
-    android:background="@color/colorListItemBackground">
+    android:minHeight="@dimen/list_item_height">
 
     <ImageView
         android:id="@+id/image"
@@ -20,14 +19,13 @@
         android:orientation="vertical"
         android:gravity="center_vertical"
         android:layout_weight="1"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp">
+        android:padding="16dp">
 
         <TextView
             android:id="@+id/name_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#212121"
+            android:textColor="@color/colorTextPrimary"
             android:textAppearance="?android:textAppearanceMedium"
             android:textStyle="bold"
             tools:text="Tootsie's" />
@@ -36,17 +34,18 @@
             android:id="@+id/description_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#757575"
-            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/colorTextSubtitle"
+            android:textAppearance="?android:textAppearanceSmall"
             tools:text="Live Music and Dancing" />
 
         <TextView
             android:id="@+id/address_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#757575"
-            android:textAppearance="?android:textAppearanceMedium"
-            tools:text="Live Music and Dancing" />
+            android:textColor="@color/colorTextPrimary"
+            android:textAppearance="?android:textAppearanceSmall"
+            tools:text="Live Music and Dancing"
+            android:paddingTop="16dp"/>
 
     </LinearLayout>
 
